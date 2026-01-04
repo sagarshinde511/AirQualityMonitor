@@ -19,7 +19,7 @@ def get_data():
     SELECT 
         id,
         DateT,
-        GasRnqge,
+        GasRange,
         DustValue,
         Temp,
         Humidity
@@ -54,7 +54,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.line_chart(
-        df.set_index("DateT")[["GasRnqge", "DustValue"]]
+        df.set_index("DateT")[["GasRange", "DustValue"]]
     )
 
 with col2:
