@@ -14,7 +14,7 @@ st.set_page_config(
 
 # ---------------- DATABASE ENGINE ----------------
 engine = create_engine(
-    "mysql+pymysql://u263681140_students:testStudents@123@82.180.143.66/u263681140_students"
+    "mysql+pymysql://u263681140_students:testStudents@123:82.180.143.66/u263681140_students"
 )
 
 # ---------------- FETCH DATA ----------------
